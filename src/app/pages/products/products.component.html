@@ -1,0 +1,15 @@
+<div class="container">
+
+
+    <h3 class="bg-dark p-2 my-3 text-white text-center text-capitalize mt-4">top jewelery</h3>
+    @defer {
+    <app-product-card [products]="topProducts" class="row gap-3 justify-content-between"></app-product-card>
+    }@loading (after 1s; minimum 2s) {
+    <h2>loading...</h2>
+    }
+
+    <h3 class="bg-dark p-2 my-3 text-white text-center text-capitalize mt-4">all porducts</h3>
+
+    <app-product-card [products]="products" class="row gap-3 justify-content-between"></app-product-card>
+
+</div>

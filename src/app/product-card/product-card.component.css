@@ -1,0 +1,12 @@
+.card {
+    max-height: 450px;
+}
+
+a {
+    cursor: pointer;
+}
+
+img {
+    height: 250px;
+    object-fit: contain;
+}
